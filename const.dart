@@ -17,14 +17,14 @@ f1++;
 
 
 // another way 
-final f2 =11;
+final f2 =11; 
 print(f2); // 11
 
 
 
 const String c1 ="contant";
 print(c1);
-c1="new value";
+//c1="new value";
 
 const c2 = "constant2";
 print(c2);

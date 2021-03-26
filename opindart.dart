@@ -104,14 +104,19 @@ int b = 7;
     // Conditional Statement 
     var c = (a < b) ? "assigned" : "not assigned"; 
     print(c); 
+     c = (a > b) ? "not assigned" : "assigned"; 
+    print(c); 
   
     // Condtional statement 
-    int n; 
+    int n;   // null 
+
     var d = n?? " assined"; 
     print(d); 
   
     // After assigning value to n 
-    n = 10; 
+    n = 10; // now n is not null
+
+
     d = n ?? "not assigned"; 
     print(d);
 
